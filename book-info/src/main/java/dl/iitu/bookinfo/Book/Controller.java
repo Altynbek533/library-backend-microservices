@@ -1,7 +1,11 @@
 package dl.iitu.bookinfo.Book;
 
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import com.netflix.ribbon.proxy.annotation.Hystrix;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,12 +16,19 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 @RestController
 @RequestMapping("/book/info")
+@EnableHystrix
+
 public class Controller {
 
     @Autowired
     Repository repository;
+
+    @HystrixCommand(fallbackMethod = "fallback_hello", commandProperties = {
+            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000")
+    })
 
     @GetMapping
     public String hello(){
@@ -71,8 +82,10 @@ public class Controller {
         return response;
     }
 
-
-
+    private String fallback_hello() {
+        return "Request fails. It takes long time to response";
+    }
+}
 //    @GetMapping("/{bookId}")
 //    public Book getBooksById(
 //            @PathVariable("bookId") Integer bookId) {
@@ -89,5 +102,5 @@ public class Controller {
 //       }
 //       return null;
 //    }
-}
+
 
