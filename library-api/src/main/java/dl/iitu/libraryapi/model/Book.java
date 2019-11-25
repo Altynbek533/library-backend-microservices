@@ -10,7 +10,7 @@ import javax.persistence.Id;
 
 public class Book {
 
-    public Book() {}
+    public Book(int i, String aNull, String s, String aNull1, String s1) {}
 
     public Book(Integer bookID, String name, String author, String description,
                 Integer quantity, String status, String category) {
