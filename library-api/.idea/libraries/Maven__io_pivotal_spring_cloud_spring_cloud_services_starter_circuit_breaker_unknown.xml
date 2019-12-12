@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/pivotal/spring/cloud/spring-cloud-services-starter-circuit-breaker/unknown/spring-cloud-services-starter-circuit-breaker-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/pivotal/spring/cloud/spring-cloud-services-starter-circuit-breaker/unknown/spring-cloud-services-starter-circuit-breaker-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/pivotal/spring/cloud/spring-cloud-services-starter-circuit-breaker/unknown/spring-cloud-services-starter-circuit-breaker-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

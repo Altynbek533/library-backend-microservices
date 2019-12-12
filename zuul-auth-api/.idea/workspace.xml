@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a2bf8d9-6f67-4d7e-93ac-7d8105f2c76d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/BorrowRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka/book-request/src/main/java/com/example/bookrequest/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka/book-request/src/main/java/com/example/bookrequest/BookRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka/book-request/src/main/java/com/example/bookrequest/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka/book-request/src/main/java/com/example/bookrequest/RequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka/notify-service/src/main/java/com/example/notifyservice/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka/notify-service/src/main/java/com/example/notifyservice/BookConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka/notify-service/src/main/java/com/example/notifyservice/BookRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/Services/BookRatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/Services/BorrowInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/Services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/service/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/service/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-service/src/main/java/com/example/backendservice/BackEndController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/JwtConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/JwtTokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/JwtUsernamePasswordAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-service/src/main/java/com/example/zuulservice/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/BookInfoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/BookInfoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/RatingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/RatingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../borrow-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/Borrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/BorrowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../borrow-info/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureke/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/LibraryApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/LibraryApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/Services/BookInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/Services/BookInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/Services/BookRatingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/Services/BorrowInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/Services/UserInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Borrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Catalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/UserInfoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/UserInfoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/common-service/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-service/target/" />
+    <ignored path="$PROJECT_DIR$/auth-service/target/" />
+    <ignored path="$PROJECT_DIR$/backend-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-service/src/main/java/com/example/zuulservice/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zuul-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-185">
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-service/src/main/java/com/example/zuulservice/ZuulServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-service/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/backend-service/src/main/java/com/example/backendservice/BackEndController.java" />
+        <option value="$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/JwtConfig.java" />
+        <option value="$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/User.java" />
+        <option value="$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/JwtUsernamePasswordAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/JwtTokenAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/common-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/zuul-service/src/main/java/com/example/zuulservice/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/zuul-service/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="backend-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commonservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservice" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-auth-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuul-auth-api" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576059349746" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZuulServiceApplication">
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackendServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backend-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.backendservice.BackendServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.commonservice.CommonServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulAuthApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-auth-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuulauthapi.ZuulAuthApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuulservice.ZuulServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a2bf8d9-6f67-4d7e-93ac-7d8105f2c76d" name="Default Changelist" comment="" />
+      <created>1576005476804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576005476804</updated>
+      <workItem from="1576005502369" duration="3547000" />
+      <workItem from="1576055371844" duration="2667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6214000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common-service/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-service/src/main/java/com/example/backendservice/BackendServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/mysql/cj/jdbc/Driver.java" />
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/model/Client.java" />
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/model/Role.java" />
+    <entry file="file://$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/JwtUsernamePasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="55" column="76" lean-forward="true" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/JwtConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/CommonServiceApplication.java" />
+    <entry file="file://$PROJECT_DIR$/common-service/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/backend-service/src/main/java/com/example/backendservice/BackEndController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/auth-service.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/security/SecurityCredentialsConfig.java" />
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/config/JwtConfig.java" />
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/model/UserCredentials.java" />
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/config/CORSFilter.java" />
+    <entry file="file://$PROJECT_DIR$/auth-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-service/src/main/java/com/example/commonservice/JwtTokenAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#884#914#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/AuthServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-service/src/main/java/com/example/zuulservice/ZuulServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-service/src/main/java/com/example/zuulservice/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

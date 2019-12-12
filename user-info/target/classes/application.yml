@@ -1,0 +1,55 @@
+
+kafka:
+  bootstrap-servers: localhost:9092
+  topic:
+    request-topic: requesttopic
+    requestreply-topic: replytopic
+  consumergroup: requestreplygorup
+
+server:
+  port: 8085  #default port where the service will be started
+
+eureka:         #tells about the Eureka server details and its refresh time
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+spring:
+  application:
+    name: user-info-service
+  kafka:
+    producer:
+      max:
+        request:
+          size: 231072000
+      batch-size: 60000000
+      buffer-memory: 60000000
+    bootstrap-servers: localhost:9092
+    client-id: producer
+    consumer:
+      group-id: requestreplygorup
+      auto-offset-reset: earliest
+      enable-auto-commit: false
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: dl.iitu.userinfo.model
+        value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+logging:
+  level:
+    com.example.howtodoinjava: DEBUG

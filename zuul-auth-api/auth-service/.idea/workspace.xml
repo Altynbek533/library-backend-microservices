@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11448d9c-1b05-47e3-b16a-085e154dda93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/authservice/config/CORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/authservice/config/JwtConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/authservice/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/authservice/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/authservice/model/UserCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/authservice/security/JwtUsernameAndPasswordAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/authservice/security/SecurityCredentialsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/authservice/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/authservice/util/QueryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/authservice/util/UriBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysql/cj/jdbc/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/UserBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/auth/CrossOrigin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/auth/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/exceptions/MethodNotAllowedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/model/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/service/QueryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-service/src/main/java/com/example/zuulservice/Config/CORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-service/src/main/java/com/example/zuulservice/config/JwtConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-service/src/main/java/com/example/zuulservice/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-service/src/main/java/com/example/zuulservice/security/JwtTokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-service/src/main/java/com/example/zuulservice/security/SecurityTokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/BookInfoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/BookInfoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../borrow-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../borrow-info/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureke/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Borrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/src/main/java/dl/iitu/libraryapi/model/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/UserInfoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/UserInfoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/security/JwtUsernameAndPasswordAuthenticationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/model/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/AuthServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/model/UserCredentials.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/security/SecurityCredentialsConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-83">
+              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/model/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/AuthServiceApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/config/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/util/UriBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/model/UserCredentials.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/security/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/security/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/config/JwtConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/security/JwtUsernameAndPasswordAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/model/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/security/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/model/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/util/QueryBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/authservice/security/SecurityCredentialsConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mysql/cj/jdbc/Driver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575830249253" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zuul-service" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11448d9c-1b05-47e3-b16a-085e154dda93" name="Default Changelist" comment="" />
+      <created>1574671059940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574671059940</updated>
+      <workItem from="1574671063150" duration="883000" />
+      <workItem from="1575807617833" duration="5005000" />
+      <workItem from="1575820866469" duration="94000" />
+      <workItem from="1575821060050" duration="3746000" />
+      <workItem from="1575863605125" duration="6326000" />
+      <workItem from="1575882938365" duration="585000" />
+      <workItem from="1575964991162" duration="1183000" />
+      <workItem from="1576003457264" duration="1064000" />
+    </task>
+    <task id="LOCAL-00001" summary="add auth service">
+      <created>1574671322237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574671322237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18886000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25189108" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Mongo Explorer" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add auth service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add auth service" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/config/CORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/util/UriBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/util/QueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="80" column="47" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/config/JwtConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysql/cj/jdbc/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/security/JwtUsernameAndPasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/model/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/model/UserCredentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/security/SecurityCredentialsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/model/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/authservice/AuthServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
