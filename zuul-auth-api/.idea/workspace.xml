@@ -2,28 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2bf8d9-6f67-4d7e-93ac-7d8105f2c76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../kafka/book-request/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka/book-request/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../book-info/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/book-info.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/book-info.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../book-rating/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Rating.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../borrow-info/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comments-info/src/main/java/dl/iitu/commentsinfo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../comments-info/src/main/java/dl/iitu/commentsinfo/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comments-info/src/main/java/dl/iitu/commentsinfo/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../comments-info/src/main/java/dl/iitu/commentsinfo/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comments-info/src/main/java/dl/iitu/commentsinfo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../comments-info/src/main/java/dl/iitu/commentsinfo/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comments-info/src/main/java/dl/iitu/commentsinfo/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../comments-info/src/main/java/dl/iitu/commentsinfo/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comments-info/src/main/java/dl/iitu/commentsinfo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../comments-info/src/main/java/dl/iitu/commentsinfo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../eureke/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureke/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureke/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureke/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka/book-request/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/book-request/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/book-request/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/book-request/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/book-request/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/notify-service/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/notify-service/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/notify-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/notify-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/notify-service/src/main/java/kz/iitu/jd3/notifyservice/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/notify-service/src/main/java/kz/iitu/jd3/notifyservice/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/notify-service/src/main/java/kz/iitu/jd3/notifyservice/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/notify-service/src/main/java/kz/iitu/jd3/notifyservice/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../library-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user-info/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-center/src/main/java/shuaicj/example/security/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-center/src/main/java/shuaicj/example/security/auth/SecurityConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/auth-center/target/" />
@@ -50,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auth-center/src/main/java/shuaicj/example/security/auth/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -250,12 +247,12 @@
       <workItem from="1576156620964" duration="1739000" />
       <workItem from="1576590649294" duration="1199000" />
       <workItem from="1576621771899" duration="1814000" />
-      <workItem from="1576649582797" duration="841000" />
+      <workItem from="1576649582797" duration="1621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4007000" />
+    <option name="totallyTimeSpent" value="4787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -416,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auth-center/src/main/java/shuaicj/example/security/auth/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

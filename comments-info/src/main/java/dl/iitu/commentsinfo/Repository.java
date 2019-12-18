@@ -1,4 +1,7 @@
 package dl.iitu.commentsinfo;
 
-public class Repository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface Repository extends JpaRepository<Comment, Long> {
+
 }
