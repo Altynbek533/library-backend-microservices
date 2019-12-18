@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5e5369d-adfe-4546-86f9-160051c20713" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../kafka/book-request/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka/book-request/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../book-info/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/book-info.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/book-info.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../book-rating/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Rating.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../borrow-info/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../eureke/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureke/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureke/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureke/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafka/book-request/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/book-request/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka/notify-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/notify-service/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../library-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zuul-auth-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zuul-auth-api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zuul-auth-api/auth-center/src/main/java/shuaicj/example/security/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zuul-auth-api/auth-center/src/main/java/shuaicj/example/security/auth/SecurityConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +33,59 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/UserInfoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="158" column="25" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="158" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/auth/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/auth/CrossOrigin.java" />
@@ -48,9 +112,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/service/QueryBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/exceptions/MethodNotAllowedException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/service/Repository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Controller.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/service/RoleRepository.java" />
@@ -58,6 +120,9 @@
         <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/model/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Repository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Controller.java" />
       </list>
     </option>
   </component>
@@ -73,7 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,11 +146,37 @@
               <item name="user-info" type="b2602c69:ProjectViewProjectNode" />
               <item name="user-info" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="user-info" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-info" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-info" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-info" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-info" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-info" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-info" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-info" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="userinfo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -95,7 +186,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576071738219" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576651259421" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -150,14 +241,16 @@
       <workItem from="1575964997026" duration="1201000" />
       <workItem from="1576031096639" duration="8508000" />
       <workItem from="1576623447071" duration="594000" />
+      <workItem from="1576649577420" duration="1455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35159000" />
+    <option name="totallyTimeSpent" value="36614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -205,8 +298,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/model/Model.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/exceptions/MethodNotAllowedException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/service/QueryBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/User.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/service/RoleRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/model/Role.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
@@ -216,8 +307,48 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/config/KafkaConfig.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/dl/iitu/userinfo/UserInfoApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/controller/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/UserInfoApplication.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/service/UserRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/UserInfoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/userinfo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="158" column="25" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="158" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -25,27 +25,4 @@ public class Rating {
     private Integer rating;
     private Integer votes;
 
-    public Long getBookId() {
-        return bookId;
-    }
-
-    public void setBookId(Long bookId) {
-        this.bookId = bookId;
-    }
-
-    public Integer getVotes() {
-        return votes;
-    }
-
-    public void setVotes(Integer votes) {
-        this.votes = votes;
-    }
-
-    public void setRating(Integer rating) {
-        this.rating = rating;
-    }
-
-    public Integer getRating() {
-        return rating;
-    }
 }

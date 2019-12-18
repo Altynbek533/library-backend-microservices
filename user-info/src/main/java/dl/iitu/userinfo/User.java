@@ -12,64 +12,27 @@ import javax.persistence.Table;
 @Getter
 @Setter
 @Entity
-@Table(name = "User")
-
 public class User {
 
     public User() {}
 
-    public User(Integer userId, String firstname, String lastname,
-                String studentID, String groupID, String password){
+    public User(Long userId, String firstname, String surname,
+                String username, String email, String password){
         this.userId = userId;
         this.firstname = firstname;
-        this.lastname = lastname;
-        this.studentID = studentID;
-        this.groupID = groupID;
+        this.surname = surname;
+        this.username = username;
+        this.email = email;
         this.password = password;
     }
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
-    private Integer userId;
+    private Long userId;
     private String firstname;
-    private String lastname;
-    private String studentID;
-    private String groupID;
+    private String surname;
+    private String username;
+    private String email;
     private String password;
 
-    public Integer getUserid() { return userId; }
-
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
-
-    public String getFirstname() { return firstname; }
-
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public String getLastname() { return lastname; }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
-
-    public String getGroupID() { return groupID; }
-
-    public void setGroupID(String groupID) {
-        this.groupID = groupID;
-    }
-
-    public String getStudentID() { return studentID; }
-
-    public void setStudentID(String studentID) {
-        this.studentID = studentID;
-    }
-
-    public String getPassword() { return password; }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 }

@@ -13,74 +13,56 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/user/info")
+@RequestMapping("/user")
 public class Controller {
 
     @Autowired
-    Repository repository;
+    Repository userRepository;
 
     @GetMapping("/all")
     public List<User> allUser() {
-        return repository.findAll();
+        return userRepository.findAll();
     }
 
     @PostMapping("/addUser")
     public User createBook(@Valid @RequestBody User user) {
-        return repository.save(user);
+        return userRepository.save(user);
     }
 
-    @GetMapping("/user/{id}")
-    public User getUsersById(@PathVariable(value = "id") Integer userId)
+    @GetMapping("/{userId}")
+    public User getUsersById(@PathVariable(value = "userId") Long userId)
             throws ResourceNotFoundException {
-        User user = repository.findById(userId)
+        User user = userRepository.findById(userId)
                 .orElseThrow(() -> new ResourceNotFoundException("Rent not found for this id :: " + userId));
         return user;
     }
 
-    @PutMapping("/user/info/{id}")
-    public ResponseEntity<User> updateUserInfo(@PathVariable(value = "id") Integer userId,
+    @PutMapping("/{userId}")
+    public ResponseEntity<User> updateUserInfo(@PathVariable(value = "userId") Long userId,
                                                @Valid @RequestBody User userInfo) throws ResourceNotFoundException {
-        User user = repository.findById(userId)
+        User user = userRepository.findById(userId)
                 .orElseThrow(() -> new ResourceNotFoundException("Rent not found for this id :: " + userId));
 
-        user.setUserId(userInfo.getUserid());
         user.setFirstname(userInfo.getFirstname());
-        user.setLastname(userInfo.getLastname());
-        user.setStudentID(userInfo.getStudentID());
-        user.setGroupID(userInfo.getGroupID());
+        user.setSurname(userInfo.getSurname());
+        user.setUsername(userInfo.getUsername());
+        user.setEmail(userInfo.getEmail());
         user.setPassword(userInfo.getPassword());
-        final User updateUserInfo = repository.save(user);
+        final User updateUserInfo = userRepository.save(user);
         return ResponseEntity.ok(updateUserInfo);
     }
 
-    @DeleteMapping("/user/{id}")
-    public Map<String, Boolean> deleteUser(@PathVariable(value = "id") Integer userId)
+    @DeleteMapping("/{userId}")
+    public Map<String, Boolean> deleteUser(@PathVariable(value = "userId") Long userId)
             throws ResourceNotFoundException {
-        User user = repository.findById(userId)
+        User user = userRepository.findById(userId)
                 .orElseThrow(() -> new ResourceNotFoundException("Rent not found for this id :: " + userId));
 
-        repository.delete(user);
+        userRepository.delete(user);
         Map<String, Boolean> response = new HashMap<>();
         response.put("deleted", Boolean.TRUE);
         return response;
     }
 }
-
-
-
-//        List<User> list = Arrays.asList(
-//                new User(1 , "Kenges", "Altynbek", "IS1602K", "21094", "qwerty"),
-//                new User(2 , "Bolatov", "Sanjar", "IS1605K", "21240", "1234567")
-//        );
-//
-//
-//
-//        for (User userList : list){
-//            if (userList.getUserid().equals(userId)){
-//                return userList;
-//            }
-//        }
-//
-//        return null;
 
 

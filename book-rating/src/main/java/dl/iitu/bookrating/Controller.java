@@ -18,28 +18,22 @@ public class Controller {
     @Autowired
     Repository repository;
 
-    @PostMapping("/add")
-    public Rating createRent(@Valid @RequestBody Rating book) {
+    @GetMapping
+    public String hello(){
+        return "Hello, It's a Book info page";
+    }
+
+    @PostMapping("/{bookId}")
+    public Rating createRating(@Valid @RequestBody Rating book) {
         return repository.save(book);
     }
 
     @GetMapping("/{bookId}")
-    public Rating getRatingByBookId( @PathVariable("bookId") Integer bookId)
+    public Rating getRatingByBookId( @PathVariable("bookId") Long bookId)
             throws ResourceNotFoundException {
         Rating rating = repository.findById(bookId)
-                .orElseThrow(() -> new ResourceNotFoundException("Rent not found for this id :: " + bookId));
+                .orElseThrow(() -> new ResourceNotFoundException("Rating not found for this id :: " + bookId));
         return rating;
     }
 
-    @DeleteMapping("/book/{id}")
-    public Map<String, Boolean> deleteBook(@PathVariable(value = "id") Integer bookId)
-            throws ResourceNotFoundException {
-        Rating book = repository.findById(bookId)
-                .orElseThrow(() -> new ResourceNotFoundException("Rent not found for this id :: " + bookId));
-
-        repository.delete(book);
-        Map<String, Boolean> response = new HashMap<>();
-        response.put("deleted", Boolean.TRUE);
-        return response;
-    }
 }
