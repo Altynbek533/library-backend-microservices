@@ -6,28 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="auth-service" />
+        <module name="common" />
         <module name="backend-service" />
-        <module name="common-service" />
-        <module name="zuul-auth-api" />
-        <module name="zuul-service" />
+        <module name="auth-center" />
+        <module name="api-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="auth-service" target="1.8" />
+      <module name="api-gateway" target="1.8" />
+      <module name="auth-center" target="1.8" />
       <module name="backend-service" target="1.8" />
-      <module name="common-service" target="1.8" />
-      <module name="zuul-auth-api" target="1.8" />
-      <module name="zuul-service" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="dress-catalog" target="1.8" />
+      <module name="zuul-auth-example-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="auth-service" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="auth-center" options="-parameters" />
       <module name="backend-service" options="-parameters" />
-      <module name="common-service" options="-parameters" />
-      <module name="zuul-auth-api" options="-parameters" />
-      <module name="zuul-service" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="dress-catalog" options="-parameters" />
     </option>
   </component>
 </project>
