@@ -2,72 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64238393-e6d9-43fe-ba67-f47ffb926fc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/BorrowRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka/book-request/src/main/java/com/example/bookrequest/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka/book-request/src/main/java/com/example/bookrequest/BookRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka/book-request/src/main/java/com/example/bookrequest/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka/book-request/src/main/java/com/example/bookrequest/RequestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka/notify-service/src/main/java/com/example/notifyservice/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka/notify-service/src/main/java/com/example/notifyservice/BookRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka/notify-service/src/main/java/com/example/notifyservice/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BookRatingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BorrowInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/service/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/service/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-auth-api/auth-service/src/main/java/com/example/authservice/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-auth-api/backend-service/src/main/java/com/example/backendservice/BackEndController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-auth-api/common-service/src/main/java/com/example/commonservice/JwtConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-auth-api/common-service/src/main/java/com/example/commonservice/JwtTokenAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-auth-api/common-service/src/main/java/com/example/commonservice/JwtUsernamePasswordAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-auth-api/common-service/src/main/java/com/example/commonservice/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-auth-api/zuul-service/src/main/java/com/example/zuulservice/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/Book/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/BookInfoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/java/dl/iitu/bookinfo/BookInfoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-info/src/test/java/dl/iitu/bookinfo/BookInfoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-rating/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/RatingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/java/dl/iitu/bookrating/RatingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-rating/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../borrow-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/Borrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/BorrowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../borrow-info/src/main/java/dl/iitu/borrowinfo/Repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../borrow-info/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureke/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/LibraryApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/LibraryApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BookInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BookInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BookRatingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BorrowInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/UserInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Borrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Catalog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/Repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/UserInfoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/java/dl/iitu/userinfo/UserInfoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-info/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-info/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-info/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-info/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-rating/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-rating/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../borrow-info/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow-info/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureke/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureke/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/book-request/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/book-request/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/notify-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/notify-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-info/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-info/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,123 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BookRatingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BorrowInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="76" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3052#3079#0" expanded="true" />
-                <element signature="e#3604#3631#0" expanded="true" />
-                <element signature="e#4129#4145#0" expanded="true" />
-                <element signature="e#4282#4309#0" expanded="true" />
-                <element signature="e#4850#4877#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BookInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/LibraryApiApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -250,68 +76,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="library-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="libraryapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="libraryapi" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="libraryapi" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -323,7 +88,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576071738330" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Semestr-VII/Library" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -383,16 +148,17 @@
       <workItem from="1575965018586" duration="1579000" />
       <workItem from="1575993246028" duration="691000" />
       <workItem from="1576045139338" duration="8262000" />
+      <workItem from="1576645586582" duration="319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43273000" />
+    <option name="totallyTimeSpent" value="43592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35098335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35098335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -433,13 +199,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/controllers/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Table.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -447,145 +207,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Catalog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Rating.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Borrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BookRatingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BorrowInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="76" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3052#3079#0" expanded="true" />
-            <element signature="e#3604#3631#0" expanded="true" />
-            <element signature="e#4129#4145#0" expanded="true" />
-            <element signature="e#4282#4309#0" expanded="true" />
-            <element signature="e#4850#4877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BookInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/LibraryApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Catalog.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Rating.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Borrow.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Book.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/RoleService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/model/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BookRatingService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BorrowInfoService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/Services/BookInfoService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dl/iitu/libraryapi/LibraryApiApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
   </component>
   <component name="masterDetails">
     <states>
